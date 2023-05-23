@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    overflow-x: hidden ;
+}
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    padding: 0 5%;
+    margin: 0 auto;
+}
+.input-search input{
+    background-color:transparent;
+    outline: none;
+}
+.last-header{
+    border: 1px solid transparent;
+    border-left: 1px solid gray;
+}
+.home:hover{
+     background-color: #F9D44A;
+     padding-right: 10%;
+     padding: 3% 10% 3% 15%;
+     border-radius: 0px 31.5px 31.5px 0px;
+}
+.notes-icon:hover{
+    background-color: #F9D44A;
+    padding-right: 10%;
+    padding: 3% 10% 3% 15%;
+    border-radius: 0px 31.5px 31.5px 0px;
+}
+.menu-btn{
+    cursor: pointer;
+}
+.menu{
+    height: 0px;
+    transition: all 0.5s ease-in-out;
+    box-shadow:-8px 42px 99px 0px rgba(34, 60, 80, 0.2); ;
+}
+.main-menu::-webkit-scrollbar{
+    width: 10px;
+    background-color: #c8c6c6;
+    height: 15px;
+}
+.main-menu::-webkit-scrollbar-thumb{
+    background: #b4adad;
+    border-radius: 20px;
+}
+.nature-img img{
+    border-radius: 30px;
+    -webkit-box-shadow: -8px 42px 99px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -8px 42px 99px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: -20px 42px 99px 20px rgba(34, 60, 80, 0.2);
+}
+.first .img img{
+   border-radius: 20px;
+}
+.heart{
+    width: 50px;
+    height: 50px;
+}
+.profule-inside{
+    height: 0px;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+   
+}
+#body-pics .img img{
+    border-radius: 20px;
+}
+.body{
+    margin: 0 0 ;
+}
+.dates:hover{
+    text-align: center;
+    width: 70px;
+    height: 115px;
+    padding: 20px 20px;
+    background-color: #18333E;
+    color: white;
+    border-radius: 50px;
+}
+.bottom{
+    width: 50%;
+    height: auto;
+    padding: 4% 4%;
+    border-radius: 20px;
+    background-color: #18333E;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+    .last-header{
+      border: none;
+    }
+    .body{
+        margin:  0 auto;
+    }
+}
+
